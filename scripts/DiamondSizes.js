@@ -6,7 +6,7 @@ document.addEventListener(
     "change",
     (event) => {
         if (event.target.name === "size") {
-            window.alert(``)
+            window.alert(`User chose size ${event.target.value}`)
         }
     }
 )
@@ -23,7 +23,6 @@ export const DiamondSizes = () => {
 
     html += listItems.join("")
     html += "</ul>"
-
     return html
 }
 
